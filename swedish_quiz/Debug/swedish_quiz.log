@@ -1,0 +1,30 @@
+﻿Build started 3/02/2017 8:44:15 AM.
+     1>Project "F:\C++ 2\swedish_quiz\swedish_quiz\swedish_quiz.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\swedish_quiz.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt game.cpp main.cpp menu.cpp
+         game.cpp
+     1>f:\c++ 2\swedish_quiz\swedish_quiz\game.cpp(234): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         Generating Code...
+         Compiling...
+         menu.cpp
+     1>f:\c++ 2\swedish_quiz\swedish_quiz\menu.cpp(9): warning C4101: 'choice' : unreferenced local variable
+         main.cpp
+         Generating Code...
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\C++ 2\swedish_quiz\Debug\swedish_quiz.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\swedish_quiz.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\C++ 2\swedish_quiz\Debug\swedish_quiz.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\C++ 2\swedish_quiz\Debug\swedish_quiz.lib" /MACHINE:X86 Debug\game.obj
+         Debug\main.obj
+         Debug\menu.obj
+         LINK : F:\C++ 2\swedish_quiz\Debug\swedish_quiz.exe not found or not built by the last incremental link; performing full link
+         swedish_quiz.vcxproj -> F:\C++ 2\swedish_quiz\Debug\swedish_quiz.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\C++ 2\swedish_quiz\Debug\swedish_quiz.exe;#1" /manifest Debug\swedish_quiz.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\swedish_quiz.unsuccessfulbuild".
+         Touching "Debug\swedish_quiz.lastbuildstate".
+     1>Done Building Project "F:\C++ 2\swedish_quiz\swedish_quiz\swedish_quiz.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.74
